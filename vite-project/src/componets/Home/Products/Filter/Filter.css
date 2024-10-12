@@ -1,0 +1,75 @@
+.filter {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    .title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 89%;
+        color: #3d3d3d;
+        text-transform: none;
+    }
+    .filter_container {
+        margin-left: 10px;
+    }
+    .blosk_filter {
+        display: flex;
+        font-size: 15px;
+        line-height: 267%;
+        font-weight: 400;
+        color: #3d3d3d;
+    }
+    .active {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 267%;
+        color: #46a358;
+    }
+    
+    .blosk_filter:hover {
+        font-weight: 700;
+font-size: 17px;
+line-height: 267%;
+color: #46a358;
+    }
+    .blosk_filter .text {
+        flex-grow: 2;
+    }
+    .blosk_filter .number {
+        margin-left: -10px;
+    }
+}
+@media (max-width: 910px) { 
+
+.filter {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: white;
+    justify-content: center;
+    .filter_container {
+        max-width: 350px;
+        /* margin-left: 200px; */
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+    .title {
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+    }
+    .blosk_filter .number {
+        margin-left: 45px;
+    }
+}
+.filter img {
+    display: none;
+}
+
+}    
+

@@ -1,0 +1,54 @@
+
+
+
+.entered {
+    position: relative;
+}
+.user {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+}
+.entered:hover {
+    .login {
+        display: block;
+    }
+}
+.icon_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgb(40, 40, 92);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name {
+    color: rgb(14, 14, 14);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.login{
+    width: 80px;
+    height: 90px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    margin-top: 0px;
+    display: none;
+}
+.login p {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+

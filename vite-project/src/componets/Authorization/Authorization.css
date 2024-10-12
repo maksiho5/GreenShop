@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden;  */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    z-index: 1000;
+}
+
+
+.authorization_reg {
+    position: relative; 
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px; 
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.closest {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.login_or_regist {
+    display: flex;
+    gap: 25px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 80%;
+    color: #3d3d3d;
+}
+.login_or_regist .reg  {
+    display: flex;
+    font-weight: 700;
+font-size: 28px;
+line-height: 80%;
+color: #46a358;
+}
+

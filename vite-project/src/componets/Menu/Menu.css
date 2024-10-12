@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header {
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    padding-bottom: 18px;
+    border-bottom: 0.30px solid #85dd9780;
+    align-items: center;
+    font-family: 'Cera Pro';
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.logo_plant {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+
+}
+
+.logo_plant p {
+    font-weight: 760;
+    font-size: 30px;
+    color: #46a358;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    li a {
+        font-weight: 400;
+        font-size: 16px;
+        color: #3d3d3d;
+    }
+    li a:hover {
+        font-weight: 700;
+        font-size: 16px;
+        color: #3d3d3d;
+        padding-bottom: 28px;
+        border-bottom: 3px solid #46a358;
+        width: 45px;
+        height: 0px;
+    }
+}
+.backed {
+    position: relative; /* Родительский элемент */
+}
+
+.backed_cont {
+    position: relative; /* Добавление для дочернего элемента, если нужно */
+}
+
+.backed_cont .count {
+    font-weight: 500;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #46a358;
+    stroke-width: 2px;
+    stroke: #fff;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -4px; 
+    right: -8px; 
+}  
+.authentication {
+    display: flex;
+    gap: 30px;
+align-items: center;
+}
+.search {
+    width: 20px;
+    height: 20px;
+}
+
+.burger_button {
+    font-size: 25px;
+    display: none;
+}
+.closeMenu {
+    display: none;
+    font-size: 30px;
+    color: black;
+    /* position: absolute; */
+}
+@media (max-width: 910px) {
+    .header {
+        justify-content: space-evenly;
+    }
+    .flower{
+        width: 300px;
+        height: auto;
+    }
+    .burger_button {
+      display: block;
+    }
+    .closeMenu {
+        display: flex;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        row-gap: 15px;
+        background-color: #fff;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        }
+  ul {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+    .burger_menu_content {
+
+    }
+  }

@@ -1,0 +1,9 @@
+.carts_container {
+    display: flex;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+.regist {
+    margin-top: 50px;
+    color: #777373;
+}

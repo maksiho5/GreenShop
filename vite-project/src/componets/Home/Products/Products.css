@@ -1,0 +1,27 @@
+.products {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+.carts_container {
+    display: flex;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+.openFilter {
+    display: none;
+
+}
+
+@media (max-width: 910px) { 
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+    .openFilter {
+        display: flex;
+        justify-content: center;
+
+    }
+
+}

@@ -1,0 +1,14 @@
+.button_login {
+    border-radius: 6px;
+width: 100px;
+height: 35px;
+background: #46a358;
+display: flex;
+align-items: center;
+font-weight: 520;
+font-size: 16px;
+color: #fff;
+border: none;
+justify-content: center;
+gap: 5px;
+}
